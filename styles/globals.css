@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #0c4a6e;
+}
+
+a:hover h2 {
+  color: white;
+}
