@@ -1,16 +1,23 @@
+import { motion } from "framer-motion";
+
 function Link({ image, Name, href }) {
   return (
-    <>
-      <a
-        className="flex items-center w-10/12 max-w-[500px] m-3 cursor-pointer bg-[#bfdbfe] p-3 rounded-md r-2 ring-[2px]    ring-[#bfdbfe] hover:bg-transparent "
-        rel="noreferrer"
-        target="_blank"
-        href={href}
-      >
-        {image && <img src={image} className="h-10 ml-3 mr-3" alt="name" />}
-        <h2 className="text-xl font-semibold text-gray-700 ">{Name}</h2>
-      </a>
-    </>
+    <motion.a
+      whileHover={{
+        scale: [1, 1.15, 1.1],
+        zIndex: 50,
+        transition: {
+          duration: 1,
+        },
+      }}
+      className="flex items-center w-full max-w-md cursor-pointer p-3 my-3 rounded-md r-2 ring-[2px] ring-indigo-400 text-gray-700 backdrop-filter backdrop-blur-2xl bg-white bg-opacity-25 shadow-xl z-30"
+      rel="noreferrer"
+      target="_blank"
+      href={href}
+    >
+      {image && <img src={image} className="h-10" alt={Name} />}
+      <h2 className="text-xl font-semibold ml-10 text-center">{Name}</h2>
+    </motion.a>
   );
 }
 
