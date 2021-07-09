@@ -3,7 +3,7 @@ import Link from "../components/Link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center items-center w-screen h-screen bg-indigo-200">
+    <div className="flex flex-col justify-center items-center w-screen h-screen bg-indigo-200 ">
       <Head>
         <title>Connect with Avneesh</title>
         <link
