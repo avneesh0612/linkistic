@@ -20,7 +20,7 @@ export default function Home() {
           src="https://res.cloudinary.com/dssvrf9oz/image/upload/v1625825953/Avneesh_Avatar_gukdsk.png"
           alt="Avneesh Agarwal"
         />
-        <h2 className="text-3xl md:text-4xl font-bold text-indigo-900 my-3 text-center">
+        <h2 className="text-3xl md:text-4xl font-semibold text-indigo-900 my-3 text-center">
           Avneesh Agarwal
         </h2>
       </div>
