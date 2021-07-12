@@ -27,7 +27,7 @@ export default function Home() {
       <div className="w-full max-w-lg p-6">
         <Link
           image="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"
-          href="https://www.instagram.com/avneesh__agarwal/"
+          href="https://www.instagram.com/avneesh.codes/"
           Name="Follow me on Instagram"
         />
         <Link
