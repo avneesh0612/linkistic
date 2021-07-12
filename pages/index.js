@@ -3,7 +3,7 @@ import Link from "../components/Link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center items-center w-screen h-screen bg-indigo-200 ">
+    <div className="flex flex-col md:justify-center md:items-center w-screen h-screen bg-indigo-200 relative overflow-x-hidden">
       <Head>
         <title>Connect with Avneesh</title>
         <link
@@ -11,24 +11,22 @@ export default function Home() {
           href="https://res.cloudinary.com/dssvrf9oz/image/upload/v1625825953/Avneesh_Avatar_gukdsk.png"
         />
       </Head>
-
-      <div>
+      <div className="absolute top-[45%] left-[0%] md:left-[20%] w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-lg opacity-90 animate-blob"></div>
+      <div className="absolute top-[50%] left-[50%] w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-lg opacity-90 animate-blob animation-delay-2000"></div>
+      <div className="absolute top-[75%] md:top-[60%] left-[10%] md:left-[30%] w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-lg opacity-90 animate-blob animation-delay-4000"></div>
+      <div className="mt-12 md:mt-0">
         <img
           className="w-[220px] rounded-full mx-auto"
           src="https://res.cloudinary.com/dssvrf9oz/image/upload/v1625825953/Avneesh_Avatar_gukdsk.png"
           alt="Avneesh Agarwal"
         />
-        <h2 className="text-2xl font-semibold text-indigo-900 mb-2">
+        <h2 className="text-3xl md:text-4xl font-bold text-indigo-900 my-3 text-center">
           Avneesh Agarwal
         </h2>
       </div>
-      <div className="relative w-full max-w-lg">
-        <div className="absolute top-0 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-lg opacity-90 animate-blob"></div>
-        <div className="absolute top-0 -right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-lg opacity-90 animate-blob animation-delay-2000"></div>
-        <div className="absolute left-20 -bottom-8 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-lg opacity-90 animate-blob animation-delay-4000"></div>
-
+      <div className="w-full max-w-lg p-6">
         <Link
-          image="https://res.cloudinary.com/dssvrf9oz/image/upload/v1620543879/image-removebg-preview_7_mpmgog.png"
+          image="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"
           href="https://www.instagram.com/avneesh__agarwal/"
           Name="Follow me on Instagram"
         />
