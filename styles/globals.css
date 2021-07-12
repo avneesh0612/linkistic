@@ -10,3 +10,16 @@
     animation-delay: 5s;
   }
 }
+
+body::-webkit-scrollbar {
+  display: none !important;
+}
+
+body {
+  overflow: hidden !important;
+}
+
+body {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
