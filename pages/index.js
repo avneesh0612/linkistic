@@ -47,7 +47,7 @@ export default function Home() {
         />
         <Link
           image="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png"
-          href="https://twitter.com/AvneeshAgarwa12"
+          href="https://twitter.com/avneesh0612"
           Name="Follow me on Twitter"
         />
         <Link
