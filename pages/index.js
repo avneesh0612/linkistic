@@ -31,14 +31,14 @@ export default function Home() {
           Name="Follow me on Instagram"
         />
         <Link
-          image="https://cdn4.iconfinder.com/data/icons/social-media-circle-7/512/Medium_circle-512.png"
+          image="https://cdn.hashnode.com/res/hashnode/image/upload/v1611902473383/CDyAuTy75.png?auto=compress"
           href="https://avneeshagarwal.medium.com/"
-          Name="Checkout my medium blogs"
+          Name="Checkout my blogs on HashNode"
         />
         <Link
           image="https://cdn.iconscout.com/icon/free/png-512/discord-2474808-2056094.png"
           href="https://discord.gg/e3sDQjSnDK"
-          Name="Join my discord server"
+          Name="Join my Discord server"
         />
         <Link
           image="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png"
@@ -48,7 +48,7 @@ export default function Home() {
         <Link
           image="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png"
           href="https://twitter.com/AvneeshAgarwa12"
-          Name="Follow me on twitter"
+          Name="Follow me on Twitter"
         />
         <Link
           image="https://www.edigitalagency.com.au/wp-content/uploads/Linkedin-logo-icon-png.png"
