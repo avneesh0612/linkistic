@@ -33,7 +33,7 @@ export default function Home() {
         <Link
           image="https://cdn.hashnode.com/res/hashnode/image/upload/v1611902473383/CDyAuTy75.png?auto=compress"
           href="https://avneeshagarwal.medium.com/"
-          Name="Checkout my blogs on HashNode"
+          Name="Checkout my blogs on Hashnode"
         />
         <Link
           image="https://cdn.iconscout.com/icon/free/png-512/discord-2474808-2056094.png"
