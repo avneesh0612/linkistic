@@ -3,7 +3,7 @@ import Link from "../components/Link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col md:justify-center md:items-center w-screen h-screen bg-indigo-200 relative overflow-x-hidden">
+    <div className="flex min-h-screen flex-col md:justify-center md:items-center w-screen bg-indigo-200 relative overflow-x-hidden">
       <Head>
         <title>Connect with Avneesh</title>
         <link
@@ -14,7 +14,7 @@ export default function Home() {
       <div className="absolute top-[45%] left-[0%] md:left-[20%] w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-lg opacity-90 animate-blob"></div>
       <div className="absolute top-[50%] left-[50%] w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-lg opacity-90 animate-blob animation-delay-2000"></div>
       <div className="absolute top-[75%] md:top-[60%] left-[10%] md:left-[30%] w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-lg opacity-90 animate-blob animation-delay-4000"></div>
-      <div className="mt-12">
+      <div className="!mt-5">
         <img
           className="w-[220px] rounded-full mx-auto"
           src="https://res.cloudinary.com/dssvrf9oz/image/upload/v1625825953/Avneesh_Avatar_gukdsk.png"
