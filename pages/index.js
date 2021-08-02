@@ -3,7 +3,7 @@ import Link from "../components/Link";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col md:justify-center md:items-center w-screen bg-indigo-200 relative overflow-x-hidden">
+    <div className="relative flex flex-col w-screen min-h-screen overflow-x-hidden bg-indigo-200 md:justify-center md:items-center">
       <Head>
         <title>Connect with Avneesh</title>
         <link
@@ -20,7 +20,7 @@ export default function Home() {
           src="https://res.cloudinary.com/dssvrf9oz/image/upload/v1625825953/Avneesh_Avatar_gukdsk.png"
           alt="Avneesh Agarwal"
         />
-        <h2 className="text-3xl md:text-4xl font-bold text-indigo-900 my-3 text-center">
+        <h2 className="my-3 text-3xl font-bold text-center text-indigo-900 md:text-4xl">
           Avneesh Agarwal
         </h2>
       </div>
@@ -32,7 +32,7 @@ export default function Home() {
         />
         <Link
           image="https://cdn.hashnode.com/res/hashnode/image/upload/v1611902473383/CDyAuTy75.png?auto=compress"
-          href="https://avneeshagarwal.medium.com/"
+          href="https://avneesh0612.hashnode.dev/"
           Name="Checkout my blogs on Hashnode"
         />
         <Link
