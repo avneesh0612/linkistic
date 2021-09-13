@@ -57,7 +57,7 @@ export default function Home() {
         />
         <Link
           image="https://icons-for-free.com/iconfiles/png/512/suitcase+work+icon-1320165848716624003.png"
-          href="https://avneeshresume.netlify.app/"
+          href="https://www.avneesh0612.me/"
           Name="Checkout my resume"
         />
       </div>
