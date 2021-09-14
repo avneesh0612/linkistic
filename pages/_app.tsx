@@ -1,8 +1,10 @@
 import SEO from "@bradgarropy/next-seo";
 import { motion } from "framer-motion";
+import { AppProps } from "next/app";
 import "../styles/globals.css";
 
-function MyApp({ Component, pageProps, router }) {
+
+function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <motion.div
       key={router.route}

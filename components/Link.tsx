@@ -1,6 +1,12 @@
 import { motion } from "framer-motion";
 
-function Link({ image, Name, href }) {
+interface LinkProps {
+  image: string;
+  Name: string;
+  href: string;
+}
+
+const Link: React.FC<LinkProps> = ({ image, Name, href }) => {
   return (
     <motion.a
       whileHover={{
@@ -15,10 +21,10 @@ function Link({ image, Name, href }) {
       target="_blank"
       href={href}
     >
-      {image && <img src={image} className="h-10 w-10" alt={Name} />}
-      <h2 className="text-xl font-semibold ml-3 md:ml-6">{Name}</h2>
+      {image && <img src={image} className="w-10 h-10" alt={Name} />}
+      <h2 className="ml-3 text-xl font-semibold md:ml-6">{Name}</h2>
     </motion.a>
   );
-}
+};
 
 export default Link;
