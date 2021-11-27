@@ -27,6 +27,14 @@ function MyApp({ Component, pageProps, router }: AppProps) {
         openGraph={{
           url: "https://www.avneesh.tech/",
           site_name: "Connect with Avneesh",
+          images: [
+            {
+              url: "/seo-image.png",
+              width: 800,
+              height: 420,
+              alt: "Connect with Avneesh",
+            },
+          ],
         }}
         twitter={{
           handle: "@avneesh0612",
