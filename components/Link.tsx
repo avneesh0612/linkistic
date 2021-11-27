@@ -16,7 +16,7 @@ const Link: React.FC<LinkProps> = ({ image, Name, href }) => {
           duration: 1,
         },
       }}
-      className="flex items-center w-full max-w-md cursor-pointer p-3 my-3 mx-auto rounded-md r-2 ring-[2px] ring-indigo-400 text-gray-700 backdrop-filter backdrop-blur-2xl bg-white bg-opacity-25 shadow-xl z-30"
+      className="flex items-center px-5 py-2 my-3 duration-100 border-2 rounded-lg fill-current hover:text-black hover:bg-neongreen border-neongreen text-neongreen hover:scale-110"
       rel="noreferrer"
       target="_blank"
       href={href}

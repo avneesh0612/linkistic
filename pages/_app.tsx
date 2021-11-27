@@ -1,8 +1,7 @@
-import SEO from "@bradgarropy/next-seo";
 import { motion } from "framer-motion";
+import { NextSeo } from "next-seo";
 import { AppProps } from "next/app";
 import "../styles/globals.css";
-
 
 function MyApp({ Component, pageProps, router }: AppProps) {
   return (
@@ -20,22 +19,19 @@ function MyApp({ Component, pageProps, router }: AppProps) {
       }}
     >
       <Component {...pageProps} />
-      <SEO
+
+      <NextSeo
         title="Connect with Avneesh"
         description="An app with all my social links"
-        keywords={["Connect", "links", "PWA"]}
-        icon="/Avneesh192x192.png"
-        facebook={{
-          image:
-            "https://res.cloudinary.com/dssvrf9oz/image/upload/v1625825953/Avneesh_Avatar_gukdsk.png",
-          url: "https://avneesh-links.vercel.app/",
-          type: "website",
+        canonical="https://www.avneesh.tech/"
+        openGraph={{
+          url: "https://www.avneesh.tech/",
+          site_name: "Connect with Avneesh",
         }}
         twitter={{
-          image:
-            "https://res.cloudinary.com/dssvrf9oz/image/upload/v1625825953/Avneesh_Avatar_gukdsk.png",
-          site: "https://avneesh-links.vercel.app/",
-          card: "summary",
+          handle: "@avneesh0612",
+          site: "@avneesh0612",
+          cardType: "summary_large_image",
         }}
       />
     </motion.div>

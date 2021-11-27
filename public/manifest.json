@@ -1,23 +1,31 @@
 {
-  "name": "Avneesh links",
-  "short_name": "Avneesh links",
-  "icons": [
-    {
-      "src": "/Avneesh192x192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-
-    {
-      "src": "/Avneesh512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ],
-  "theme_color": "#FFFFFF",
-  "background_color": "#FFFFFF",
-  "start_url": "/",
-  "display": "standalone",
-  "orientation": "portrait"
+    "theme_color": "#52DEE5",
+    "background_color": "#222E50",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Connect with Avneesh",
+    "short_name": "Avneesh links",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
 }

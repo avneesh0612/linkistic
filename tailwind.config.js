@@ -4,6 +4,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      colors: {
+        neongreen: "#52DEE5",
+        bgblue: "#222E50",
+      },
       animation: {
         blob: "blob 7s infinite",
       },
@@ -11,7 +15,7 @@ module.exports = {
         blob: {
           "0%": {
             transform: "translate(0px, 0px) scale(1)",
-          },
+        },
           "33%": {
             transform: "translate(30px, -50px) scale(1.1)",
           },

@@ -3,24 +3,18 @@ import Link from "../components/Link";
 
 export default function Home() {
   return (
-    <div className="relative flex flex-col w-screen min-h-screen overflow-x-hidden bg-indigo-200 md:justify-center md:items-center">
+    <div className="relative flex flex-col w-screen min-h-screen overflow-x-hidden bg-[#222E50] md:justify-center md:items-center">
       <Head>
         <title>Connect with Avneesh</title>
-        <link
-          rel="icon"
-          href="https://res.cloudinary.com/dssvrf9oz/image/upload/v1625825953/Avneesh_Avatar_gukdsk.png"
-        />
+        <link rel="icon" href="/icon-192x192.png" />
       </Head>
-      <div className="absolute top-[45%] left-[0%] md:left-[20%] w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-lg opacity-90 animate-blob"></div>
-      <div className="absolute top-[50%] left-[50%] w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-lg opacity-90 animate-blob animation-delay-2000"></div>
-      <div className="absolute top-[75%] md:top-[60%] left-[10%] md:left-[30%] w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-lg opacity-90 animate-blob animation-delay-4000"></div>
       <div className="!mt-5">
         <img
-          className="w-[220px] rounded-full mx-auto"
-          src="https://res.cloudinary.com/dssvrf9oz/image/upload/v1625825953/Avneesh_Avatar_gukdsk.png"
+          className="mx-auto w-[250px] h-[250px] rounded-full"
+          src="/icon-512x512.png"
           alt="Avneesh Agarwal"
         />
-        <h2 className="my-3 text-3xl font-bold text-center text-indigo-900 md:text-4xl">
+        <h2 className="mb-3 -mt-5 text-3xl font-bold text-center text-neongreen md:text-4xl">
           Avneesh Agarwal
         </h2>
       </div>
