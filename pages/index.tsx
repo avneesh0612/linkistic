@@ -30,11 +30,6 @@ export default function Home() {
           Name="Checkout my blogs on Hashnode"
         />
         <Link
-          image="https://cdn.iconscout.com/icon/free/png-512/discord-2474808-2056094.png"
-          href="https://discord.gg/e3sDQjSnDK"
-          Name="Join my Discord server"
-        />
-        <Link
           image="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png"
           href="https://github.com/avneesh0612"
           Name="Look at my code on Github"
