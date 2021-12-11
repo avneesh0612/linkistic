@@ -49,6 +49,3 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2021 [Avneesh Agarwal](https://github.com/avneesh0612).<br />
 This project is [GPL--3.0](https://github.com/avneesh0612/linkistic/blob/main/LICENSE) licensed.
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
