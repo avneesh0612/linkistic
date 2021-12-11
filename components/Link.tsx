@@ -1,29 +1,22 @@
-import { motion } from "framer-motion";
+import Image from "next/image";
 
 interface LinkProps {
   image: string;
-  Name: string;
+  title: string;
   href: string;
 }
 
-const Link: React.FC<LinkProps> = ({ image, Name, href }) => {
+const Link: React.FC<LinkProps> = ({ image, title, href }) => {
   return (
-    <motion.a
-      whileHover={{
-        scale: [1, 1.15, 1.1],
-        zIndex: 50,
-        transition: {
-          duration: 1,
-        },
-      }}
-      className="flex items-center px-5 py-2 my-3 duration-100 border-2 rounded-lg fill-current hover:text-black hover:bg-neongreen border-neongreen text-neongreen hover:scale-110"
+    <a
+      className="flex items-center px-5 py-2 my-3 duration-500 border-2 rounded-lg fill-current hover:scale-110 hover:shadow-md hover:shadow-neongreen border-neongreen text-neongreen"
       rel="noreferrer"
       target="_blank"
       href={href}
     >
-      {image && <img src={image} className="w-10 h-10" alt={Name} />}
-      <h2 className="ml-3 text-xl font-semibold md:ml-6">{Name}</h2>
-    </motion.a>
+      {image && <Image width={40} height={40} src={image} alt={title} />}
+      <h2 className="ml-3 text-xl font-semibold md:ml-6">{title}</h2>
+    </a>
   );
 };
 

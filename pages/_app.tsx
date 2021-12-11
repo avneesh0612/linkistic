@@ -1,25 +1,10 @@
-import { motion } from "framer-motion";
 import { NextSeo } from "next-seo";
 import { AppProps } from "next/app";
 import "../styles/globals.css";
 
-function MyApp({ Component, pageProps, router }: AppProps) {
+function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <motion.div
-      key={router.route}
-      initial="initial"
-      animate="animate"
-      variants={{
-        initial: {
-          opacity: 0,
-        },
-        animate: {
-          opacity: 1,
-        },
-      }}
-    >
-      <Component {...pageProps} />
-
+    <>
       <NextSeo
         title="Connect with Avneesh"
         titleTemplate="Connect with Avneesh"
@@ -51,7 +36,8 @@ function MyApp({ Component, pageProps, router }: AppProps) {
           cardType: "summary_large_image",
         }}
       />
-    </motion.div>
+      <Component {...pageProps} />
+    </>
   );
 }
 
