@@ -5,11 +5,7 @@ import links from "../public/links.json";
 
 export default function Home() {
   return (
-    <div className="relative flex flex-col w-screen min-h-screen overflow-x-hidden bg-background md:justify-center md:items-center">
-      <Head>
-        <title>Connect with Avneesh</title>
-        <link rel="icon" href="/icon-192x192.png" />
-      </Head>
+    <div className="flex flex-col w-screen min-h-screen overflow-x-hidden bg-background justify-center items-center">
       <div className="!mt-5">
         <Image
           width={250}
