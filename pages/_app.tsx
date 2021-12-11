@@ -22,19 +22,28 @@ function MyApp({ Component, pageProps, router }: AppProps) {
 
       <NextSeo
         title="Connect with Avneesh"
+        titleTemplate="Connect with Avneesh"
+        defaultTitle="Connect with Avneesh"
         description="An app with all my social links"
         canonical="https://www.avneesh.tech/"
         openGraph={{
           url: "https://www.avneesh.tech/",
-          site_name: "Connect with Avneesh",
+          title: "Connect with Avneesh",
+          description: "An app with all my social links",
           images: [
             {
-              url: "/seo-image.png",
+              url: "/og-image.png",
               width: 800,
               height: 420,
               alt: "Connect with Avneesh",
             },
           ],
+          profile: {
+            firstName: "Avneesh",
+            gender: "Male",
+            lastName: "Agarwal",
+            username: "avneesh0612",
+          },
         }}
         twitter={{
           handle: "@avneesh0612",

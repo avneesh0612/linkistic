@@ -1,7 +1,8 @@
 module.exports = {
-  mode: "jit",
-  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       colors: {
@@ -15,7 +16,7 @@ module.exports = {
         blob: {
           "0%": {
             transform: "translate(0px, 0px) scale(1)",
-        },
+          },
           "33%": {
             transform: "translate(30px, -50px) scale(1.1)",
           },
