@@ -5,7 +5,7 @@ import links from "../public/links.json";
 
 export default function Home() {
   return (
-    <div className="relative flex flex-col w-screen min-h-screen overflow-x-hidden bg-bgblue md:justify-center md:items-center">
+    <div className="relative flex flex-col w-screen min-h-screen overflow-x-hidden bg-background md:justify-center md:items-center">
       <Head>
         <title>Connect with Avneesh</title>
         <link rel="icon" href="/icon-192x192.png" />
@@ -14,11 +14,11 @@ export default function Home() {
         <Image
           width={250}
           height={250}
-          className="mx-auto border-[1px] rounded-full border-neongreen"
+          className="mx-auto border-[1px] rounded-full border-accent"
           src="/icon-512x512.png"
           alt="Avneesh Agarwal"
         />
-        <h2 className="mb-3 -mt-5 text-3xl font-bold text-center text-neongreen md:text-4xl">
+        <h2 className="mb-3 -mt-5 text-3xl font-bold text-center text-accent md:text-4xl">
           Avneesh Agarwal
         </h2>
       </div>
