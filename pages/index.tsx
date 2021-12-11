@@ -6,7 +6,7 @@ import links from "../public/links.json";
 export default function Home() {
   return (
     <div className="flex flex-col w-screen min-h-screen overflow-x-hidden bg-background justify-center items-center">
-      <div className="!mt-5">
+      <div className="mt-5">
         <Image
           width={250}
           height={250}
