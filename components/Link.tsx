@@ -11,7 +11,7 @@ const Link: React.FC<LinkProps> = ({ image, title, href, tabIndex }) => {
   return (
     <a
       tabIndex={tabIndex}
-      className="flex items-center px-5 py-2 my-3 duration-500 border-2 rounded-lg fill-current hover:scale-110 hover:shadow-md hover:shadow-accent border-accent text-accent"
+      className="flex items-center px-5 py-2 my-3 duration-500 border-2 rounded-lg fill-current hover:scale-105 active:scale-95 hover:shadow-md hover:shadow-accent border-accent text-accent"
       rel="noreferrer"
       target="_blank"
       href={href}
