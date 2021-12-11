@@ -4,11 +4,13 @@ interface LinkProps {
   image: string;
   title: string;
   href: string;
+  tabIndex: number;
 }
 
-const Link: React.FC<LinkProps> = ({ image, title, href }) => {
+const Link: React.FC<LinkProps> = ({ image, title, href, tabIndex }) => {
   return (
     <a
+      tabIndex={0}
       className="flex items-center px-5 py-2 my-3 duration-500 border-2 rounded-lg fill-current hover:scale-110 hover:shadow-md hover:shadow-accent border-accent text-accent"
       rel="noreferrer"
       target="_blank"

@@ -25,6 +25,7 @@ export default function Home() {
             image={link.image}
             href={link.href}
             title={link.title}
+            tabIndex={i + 1}
           />
         ))}
       </div>
