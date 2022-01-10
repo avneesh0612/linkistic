@@ -1,13 +1,8 @@
 [
   {
-    "image": "/logos/instagram.svg",
-    "href": "https://www.instagram.com/avneesh.codes/",
-    "title": "Follow me on Instagram"
-  },
-  {
     "image": "/logos/hashnode.svg",
     "href": "https://avneesh0612.hashnode.dev/",
-    "title": "Checkout my blogs on Hashnode"
+    "title": "Checkout my blogs"
   },
   {
     "image": "/logos/github.svg",
@@ -20,13 +15,23 @@
     "title": "Follow me on Twitter"
   },
   {
+    "image": "/logos/globe.svg",
+    "href": "https://www.avneesh.tech/",
+    "title": "Checkout my website"
+  },
+  {
+    "image": "/logos/money.svg",
+    "href": "https://sponsor.avneesh.tech/",
+    "title": "Sponsor me"
+  },
+  {
     "image": "/logos/linkedin.svg",
     "href": "https://www.linkedin.com/in/avneesh0612/",
     "title": "Connect with me on LinkedIn"
   },
   {
-    "image": "/logos/globe.svg",
-    "href": "https://www.avneesh.tech/",
-    "title": "Checkout my website"
+    "image": "/logos/instagram.svg",
+    "href": "https://www.instagram.com/avneesh.codes/",
+    "title": "Follow me on Instagram"
   }
 ]
