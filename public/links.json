@@ -20,6 +20,11 @@
     "title": "Check out my website"
   },
   {
+    "image": "/logos/discord.svg",
+    "href": "https://discord.gg/GXrkZUddZf",
+    "title": "Join buidler's hub"
+  },
+  {
     "image": "/logos/money.svg",
     "href": "https://sponsor.avneesh.tech/",
     "title": "Sponsor me"
